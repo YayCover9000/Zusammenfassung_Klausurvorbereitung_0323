@@ -26,7 +26,7 @@
 
 
 
-Fahrenheit Celsius
+*Fahrenheit Celsius
 BodyMass
 Devisienrechner
 Dreiecksfläche
@@ -39,4 +39,5 @@ settergetter
 taschenrechner
 Unterscheid For loop und foreach loop // bei foreach gibt man nicht ||System.out.print(Array[e]);|| aus, sondern nur ||System.out.print(e);||. Diese Methode dient EINZIG UND ALLEINE der AUSGABE
 wohingegen es bei for loop wichtig ist es so zu schreiben: ||System.out.print(laufzeiten[r]);||.
-
+for schleife mit abbruchbedingung -1 versehen: ||for (int i = 0; i < array.lemgth && !exit; i++) {||
+immer erst Abbruchbedinugn checken
