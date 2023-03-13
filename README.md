@@ -9,6 +9,8 @@
 > ### Zwei Dimensionales Array:
 > https://github.com/YayCover9000/Binaeres_2-dim_Array_II_10
 > #### erstellen:
+> entweder int Array[][] = new int[5][5]
+> oder int Array[][] = new int []{5}[]{5}
 > #### befüllen:
 > #### zufällig befüllen lassen:
 > #### ausgeben:
@@ -16,5 +18,20 @@
 > #### absteigend ausgeben:
 > #### gegenöäufig ausgeben:
 ==============================================================
-> ### Auf NULL eingabe überprüfen:
-> 
+> ### Auf NULL eingabe pruefen:
+> scanner.hasnextInt()
+> if (Array == null)
+
+
+
+Fahrenheit Celsius
+BodyMass
+Devisienrechner
+Dreiecksfläche
+Geschwindiugkeit auto
+GPS Empfang
+Kalorien
+KReisfläche
+Schalltjahr
+settergetter
+taschenrechner
