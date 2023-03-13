@@ -37,4 +37,6 @@ KReisfläche
 Schalltjahr
 settergetter
 taschenrechner
-Unterscheid For loop und foreach loop
+Unterscheid For loop und foreach loop // bei foreach gibt man nicht ||System.out.print(Array[e]);|| aus, sondern nur ||System.out.print(e);||. Diese Methode dient EINZIG UND ALLEINE der AUSGABE
+wohingegen es bei for loop wichtig ist es so zu schreiben: ||System.out.print(laufzeiten[r]);||.
+
