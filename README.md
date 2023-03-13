@@ -9,14 +9,16 @@
 > ### Zwei Dimensionales Array:
 > https://github.com/YayCover9000/Binaeres_2-dim_Array_II_10
 > #### erstellen:
-> entweder int Array[][] = new int[5][5]
-> oder int Array[][] = new int []{5}[]{5}
+> entweder int Array[][] = new int[5][5] // in der eckigen Klammer steht die Größe
+> oder int Array[][] = new int []{5}[]{5,6,7} // in den Geschwundgenen Klammer steht der Inhalt hier im ersten Array mit einer stelle eine 5 und im zweiten Array die 5,6 und 7. 
 > #### befüllen:
 > #### zufällig befüllen lassen:
 > #### ausgeben:
 > #### aufsteigend ausgeben:
 > #### absteigend ausgeben:
 > #### gegenöäufig ausgeben:
+> foreach loop
+> for loop
 ==============================================================
 > ### Auf NULL eingabe pruefen:
 > scanner.hasnextInt()
@@ -35,3 +37,4 @@ KReisfläche
 Schalltjahr
 settergetter
 taschenrechner
+Unterscheid For loop und foreach loop
