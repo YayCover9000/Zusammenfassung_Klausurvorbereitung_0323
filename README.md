@@ -21,7 +21,7 @@
 > for loop
 ==============================================================
 > ### Auf NULL eingabe pruefen:
-> scanner.hasnextInt()
+> scanner.hasNextInt()
 > if (Array == null)
 
 
@@ -41,3 +41,33 @@ Unterscheid For loop und foreach loop // bei foreach gibt man nicht ||System.out
 wohingegen es bei for loop wichtig ist es so zu schreiben: ||System.out.print(laufzeiten[r]);||.
 for schleife mit abbruchbedingung -1 versehen: ||for (int i = 0; i < array.lemgth && !exit; i++) {||
 immer erst Abbruchbedinugn checken
+ 
+Math.random
+Math.Pow
+Math.round
+Arrays
+
+Auf dopplung checken im Array:
+`````
+while (exit || whileZaehler < 6) {
+    for (int z = 0; z < 6; z++) {
+        zufallsZahlen = 1 + (int)(Math.random() * 49);
+         System.out.println("zufallsZahlen: " + zufallsZahlen);
+        lottozahlen[z] = zufallsZahlen;
+        boolean schonImArray = false;
+
+         for (int y = 0; y < z; y++) {
+            if (lottozahlen[y] == lottozahlen[z]) {
+                schonImArray = true;
+                exit = true;
+            }
+        }
+        if (schonImArray) {
+            z--;
+        } else {
+            System.out.println(lottozahlen[z]);
+            whileZaehler++;
+        }
+    }
+}
+`````
