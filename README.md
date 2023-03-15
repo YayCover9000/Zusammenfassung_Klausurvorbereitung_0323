@@ -70,3 +70,67 @@ while (whileZaehler < 6) {
     }
 }
 `````
+
+
+>## SetterGetter:
+> ### Wir haben die Klasse Alphabet
+> #### new:
+> /* Mit new wird ein neues Objekt erstellt, welchem wir Werte übergeben können im Beispiel den Buchstaben X. */
+> 
+>   ``
+public class Alphabet {     
+    public static void main (String [] args) {
+             Alphabet Buchstabe = new Alphabet(X);
+      } 
+}
+> ``
+> #### Setter:
+> /* Es wird eine Public Variable übergeben an eine private Variable. */
+> 
+>  ``public void setErsterBuchstabe (int ersterBuchstabeSetter) {ersterBuchstabe = ersterBuchstabeSetter;}``
+> #### Getter:
+> /* Die private Variable wird aufgerufen und als return gegeben. */
+> 
+> ``public float getErsterBuchstabe() {
+return ersterBuchstabe;
+}``
+> #### this Konstruktor:
+> /* this referenziert ein bestimmtes Objekt und übergibt den bestimmten, von uns übergebenen, Wert. Dafür benötigen wirt eine Methode, in diesem fall public Alphabet. */
+> 
+> ``public Alphabet(int ersterBuchstabe) {
+>       this.ersterBuchstabe = ersterBuchstabe;
+> }``
+> ## Beispiel:
+> ``CODE:  
+ public class Shopping {
+
+    private float weight;
+    private float price;
+    public static void main (String[] args) {
+        Shopping Test = new Shopping(1, 2);
+        Shopping.ausgeben(Test.weight, Test.price);
+    }
+    public Shopping(float weight, float price) {
+        this.weight = weight;
+        this.price = price;
+    }
+    public float getWeight() {
+        return weight;
+    }
+    public void setWeight (float weightSetter) {
+        weight = weightSetter;
+    }
+    public float getPrice() {
+        return price;
+    }
+    public void setPrice(float priceSetter) {
+        price = priceSetter;
+    }
+    public static void ausgeben (float weight, float price) {
+        System.out.println("Weight: " + weight);
+        System.out.println("Price: " + price);
+    }
+}
+´´
+
+> 
