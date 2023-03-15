@@ -49,7 +49,7 @@ Arrays
 
 Auf dopplung checken im Array:
 `````
-while (exit || whileZaehler < 6) {
+while (whileZaehler < 6) {
     for (int z = 0; z < 6; z++) {
         zufallsZahlen = 1 + (int)(Math.random() * 49);
          System.out.println("zufallsZahlen: " + zufallsZahlen);
@@ -59,7 +59,6 @@ while (exit || whileZaehler < 6) {
          for (int y = 0; y < z; y++) {
             if (lottozahlen[y] == lottozahlen[z]) {
                 schonImArray = true;
-                exit = true;
             }
         }
         if (schonImArray) {
