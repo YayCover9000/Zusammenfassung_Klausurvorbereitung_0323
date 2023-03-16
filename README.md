@@ -2,27 +2,46 @@
 
 ## Zweck dieses Programms ist es zusammenfassend alle "schwierigeren" code Probleme aufzulisten. 
 
->Gegebenenfalls können Lösungen unter folgenden Begriffen auf GitHub unter dem Link: 
->### https://github.com/YayCover9000 
-> gefunden werden. Im Folgenden werden Lösungsansätze und Erklärungen, sowie ein Verweis auf ein fertiges Beispiel Programm, welches in der einen oder der anderen Art mit dem Problem umgeht.
+Gegebenenfalls können Lösungen unter folgenden Begriffen auf GitHub unter dem Link: 
 
-> ### Zwei Dimensionales Array:
-> https://github.com/YayCover9000/Binaeres_2-dim_Array_II_10
-> #### erstellen:
-> entweder int Array[][] = new int[5][5] // in der eckigen Klammer steht die Größe
-> oder int Array[][] = new int []{5}[]{5,6,7} // in den Geschwundgenen Klammer steht der Inhalt hier im ersten Array mit einer stelle eine 5 und im zweiten Array die 5,6 und 7. 
-> #### befüllen:
-> #### zufällig befüllen lassen:
-> #### ausgeben:
-> #### aufsteigend ausgeben:
-> #### absteigend ausgeben:
-> #### gegenöäufig ausgeben:
-> foreach loop
-> for loop
+### https://github.com/YayCover9000 
+
+gefunden werden. Im Folgenden werden Lösungsansätze und Erklärungen, sowie ein Verweis auf 
+ein fertiges Beispiel Programm, welches in der einen oder der anderen Art mit dem Problem umgeht.
+
+### Zwei Dimensionales Array:
+
+https://github.com/YayCover9000/Binaeres_2-dim_Array_II_10
+
+#### erstellen:
+
+entweder int Array[][] = new int[5][5] // in der eckigen Klammer steht die Größe
+oder int Array[][] = new int []{5}[]{5,6,7} // in den geschwungenen Klammern steht der Inhalt hier 
+im ersten Array mit einer stelle eine 5 und im zweiten Array die 5,6 und 7. 
+
+#### befüllen:
+
+#### zufällig befüllen lassen:
+
+#### ausgeben:
+
+#### aufsteigend ausgeben:
+
+#### absteigend ausgeben:
+
+#### gegenläufig ausgeben:
+
+foreach loop
+for loop
+
 ==============================================================
-> ### Auf NULL eingabe pruefen:
+
+### Auf NULL eingabe prüfen:
+
+```
 > scanner.hasNextInt()
 > if (Array == null)
+```
 
 
 
@@ -48,7 +67,7 @@ Math.round
 Arrays
 
 Auf dopplung checken im Array:
-`````
+```
 while (whileZaehler < 6) {
     for (int z = 0; z < 6; z++) {
         zufallsZahlen = 1 + (int)(Math.random() * 49);
@@ -69,15 +88,17 @@ while (whileZaehler < 6) {
         }
     }
 }
-`````
+```
 
 
->## SetterGetter:
-> ### Wir haben die Klasse Alphabet
-> #### new:
-> /* Mit new wird ein neues Objekt erstellt, welchem wir Werte übergeben können im Beispiel den Buchstaben X. */
-> 
->   ``
+## SetterGetter:
+
+### Wir haben die Klasse Alphabet
+
+#### new:
+
+```
+/* Mit new wird ein neues Objekt erstellt, welchem wir Werte übergeben können im Beispiel den Buchstaben X. */
 public class Alphabet {     
     public static void main (String [] args) {
              Alphabet Buchstabe = new Alphabet(X);
@@ -105,14 +126,18 @@ public float getErsterBuchstabe() {
 
 #### this Konstruktor:
 > /* this referenziert ein bestimmtes Objekt und übergibt den bestimmten, von uns übergebenen, Wert. Dafür benötigen wirt eine Methode, in diesem fall public Alphabet. */
-> 
-> ``public Alphabet(int ersterBuchstabe) {
->       this.ersterBuchstabe = ersterBuchstabe;
-> }``
-> ## Beispiel:
-> ``CODE:  
- public class Shopping {
 
+ 
+```
+public Alphabet(int ersterBuchstabe){
+    this.ersterBuchstabe = ersterBuchstabe;
+}
+```
+
+## Beispiel:
+
+``` 
+public class Shopping
     private float weight;
     private float price;
     public static void main (String[] args) {
@@ -139,7 +164,5 @@ public float getErsterBuchstabe() {
         System.out.println("Weight: " + weight);
         System.out.println("Price: " + price);
     }
-}
-´´
-
-> 
+    }
+```
