@@ -83,18 +83,27 @@ public class Alphabet {
              Alphabet Buchstabe = new Alphabet(X);
       } 
 }
-> ``
-> #### Setter:
-> /* Es wird eine Public Variable übergeben an eine private Variable. */
-> 
->  ``public void setErsterBuchstabe (int ersterBuchstabeSetter) {ersterBuchstabe = ersterBuchstabeSetter;}``
-> #### Getter:
-> /* Die private Variable wird aufgerufen und als return gegeben. */
-> 
-> ``public float getErsterBuchstabe() {
-return ersterBuchstabe;
-}``
-> #### this Konstruktor:
+```
+
+#### Setter:
+/* Es wird eine Public Variable übergeben an eine private Variable. */
+
+```
+public void setErsterBuchstabe (int ersterBuchstabeSetter) {
+    ersterBuchstabe = ersterBuchstabeSetter;
+    }
+```
+
+#### Getter:
+
+```
+/* Die private Variable wird aufgerufen und als return gegeben. */
+public float getErsterBuchstabe() {
+    return ersterBuchstabe;
+}
+```
+
+#### this Konstruktor:
 > /* this referenziert ein bestimmtes Objekt und übergibt den bestimmten, von uns übergebenen, Wert. Dafür benötigen wirt eine Methode, in diesem fall public Alphabet. */
 > 
 > ``public Alphabet(int ersterBuchstabe) {
