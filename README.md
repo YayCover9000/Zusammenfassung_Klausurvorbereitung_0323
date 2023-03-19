@@ -97,7 +97,7 @@ while (whileZaehler < 6) {
 
 #### new:
 
-```
+```java
 /* Mit new wird ein neues Objekt erstellt, welchem wir Werte übergeben können im Beispiel den Buchstaben X. */
 public class Alphabet {     
     public static void main (String [] args) {
@@ -107,9 +107,9 @@ public class Alphabet {
 ```
 
 #### Setter:
+```java
 /* Es wird eine Public Variable übergeben an eine private Variable. */
 
-```
 public void setErsterBuchstabe (int ersterBuchstabeSetter) {
     ersterBuchstabe = ersterBuchstabeSetter;
     }
@@ -117,7 +117,7 @@ public void setErsterBuchstabe (int ersterBuchstabeSetter) {
 
 #### Getter:
 
-```
+```java
 /* Die private Variable wird aufgerufen und als return gegeben. */
 public float getErsterBuchstabe() {
     return ersterBuchstabe;
@@ -125,10 +125,12 @@ public float getErsterBuchstabe() {
 ```
 
 #### this Konstruktor:
-> /* this referenziert ein bestimmtes Objekt und übergibt den bestimmten, von uns übergebenen, Wert. Dafür benötigen wirt eine Methode, in diesem fall public Alphabet. */
 
- 
-```
+```java
+/* this referenziert ein bestimmtes Objekt und übergibt den bestimmten, 
+von uns übergebenen, Wert. Dafür benötigen wirt eine Methode, in diesem Fall
+public Alphabet. */
+
 public Alphabet(int ersterBuchstabe){
     this.ersterBuchstabe = ersterBuchstabe;
 }
@@ -136,7 +138,7 @@ public Alphabet(int ersterBuchstabe){
 
 ## Beispiel:
 
-``` 
+``` java
 public class Shopping
     private float weight;
     private float price;
@@ -167,7 +169,8 @@ public class Shopping
     }
 ```
 Arrays miteinander swapen:
-´´´
+
+```java
 import java.util.Random;
 
 public class Array2Dim {
@@ -246,7 +249,8 @@ public class Array2Dim {
         output(arr2);
     }
 }
-´´´
+````
+
 Arrays in Java sind eine Sammlung von Variablen des gleichen Datentyps, die nacheinander in einem Speicherbereich angeordnet sind. Sie können verwendet werden, um Daten zu speichern, auf sie zuzugreifen und sie zu manipulieren. In diesem Text werden wir uns auf die Verwendung von Arrays in Java konzentrieren und verschiedene Methoden behandeln, wie man mit Arrays umgehen kann.
 
     Überprüfung von Null- und 0-Eingaben:
