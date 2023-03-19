@@ -10,7 +10,7 @@ und verschiedene Methoden behandeln, wie man mit Arrays umgehen kann.
 
 [Überprüfung Null und 0 Eingabe](#ueberpruefung-von-eingaben)
 
-[Befüllen von Arrays](#befllen-von-arrays)
+[Befüllen von Arrays](#befuellen-von-arrays)
 
 [](#ausgabe-von-arrays)
 
@@ -35,7 +35,7 @@ System.out.println("Das Array ist leer");
 }
 ```
 
-### Befüllen von Arrays
+### Befuellen von Arrays
 
 Arrays können auf verschiedene Arten befüllt werden.
 Eine Möglichkeit ist die Verwendung der Schleife "for". Hier ist ein Beispiel:
