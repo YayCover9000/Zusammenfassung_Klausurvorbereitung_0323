@@ -167,3 +167,11 @@ public class Main {
 }
 ```
 Das Programm erstellt zwei Book-Objekte mit unterschiedlichen Konstruktoren: myBook1 mit allen drei Parametern und myBook2 mit nur den ersten beiden. Das Programm gibt dann die Informationen über beide Bücher aus. Anschließend wird die setPageCount-Methode verwendet, um die Seitenzahl des zweiten Buches zu aktualisieren und das Ergebnis erneut auszugeben.
+Der Output des obigen Programms würde folgendermaßen aussehen:
+```
+Book 1: The Lord of the Rings by J.R.R. Tolkien (1000 pages)
+Book 2: Harry Potter by J.K. Rowling (0 pages)
+Updated page count for Book 2: 500
+```
+Zunächst werden die Informationen über die beiden Bücher ausgegeben, wobei die Seitenzahl von myBook2 als 0 angegeben wird, da sie im Konstruktor nicht angegeben wurde. Dann wird die setPageCount-Methode verwendet, um die Seitenzahl von myBook2 auf 500 zu setzen, und das Ergebnis wird erneut ausgegeben.
+
