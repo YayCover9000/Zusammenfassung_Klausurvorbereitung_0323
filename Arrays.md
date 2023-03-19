@@ -8,14 +8,14 @@ und verschiedene Methoden behandeln, wie man mit Arrays umgehen kann.
 
 ## Inhalt
 
-[Überprüfung Null und 0 Eingabe](#berprfung-von-null--und-0-eingaben)
+[Überprüfung Null und 0 Eingabe](#ueberpruefung-von-eingaben)
 
 [Befüllen von Arrays](#befllen-von-arrays)
 
 [](#ausgabe-von-arrays)
 
 
-### Überprüfung von Null- und 0-Eingaben
+### Ueberpruefung von Eingaben
 
 Manchmal kann es vorkommen, dass Sie eine Null- oder 0-Eingabe erhalten.
 Um dies zu vermeiden, können Sie eine Überprüfung durchführen, ob das Array null
