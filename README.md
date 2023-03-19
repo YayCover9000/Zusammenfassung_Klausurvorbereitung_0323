@@ -32,42 +32,46 @@ im ersten Array mit einer stelle eine 5 und im zweiten Array die 5,6 und 7.
 #### gegenläufig ausgeben:
 
 foreach loop
+
 for loop
 
 ==============================================================
 
-### Auf NULL eingabe prüfen:
+### Auf NULL Eingabe prüfen:
 
+```java
+scanner.hasNextInt()
+if (Array == null){
+        ...
+        }
 ```
-> scanner.hasNextInt()
-> if (Array == null)
-```
 
+* Fahrenheit Celsius
+* BodyMass
+* Devisenrechner
+* Dreiecksfläche
+* Geschwindigkeit Auto
+* GPS Empfang
+* Kalorien
+* Kreisfläche
+* Schaltjahr
+* settergetter
+* Taschenrechner
 
-
-*Fahrenheit Celsius
-BodyMass
-Devisienrechner
-Dreiecksfläche
-Geschwindiugkeit auto
-GPS Empfang
-Kalorien
-KReisfläche
-Schalltjahr
-settergetter
-taschenrechner
-Unterscheid For loop und foreach loop // bei foreach gibt man nicht ||System.out.print(Array[e]);|| aus, sondern nur ||System.out.print(e);||. Diese Methode dient EINZIG UND ALLEINE der AUSGABE
+Unterschied: For loop und foreach loop // bei foreach gibt man nicht ||System.out.print(Array[e]);|| aus, sondern nur ||System.out.print(e);||. Diese Methode dient EINZIG UND ALLEINE der AUSGABE
 wohingegen es bei for loop wichtig ist es so zu schreiben: ||System.out.print(laufzeiten[r]);||.
 for schleife mit abbruchbedingung -1 versehen: ||for (int i = 0; i < array.lemgth && !exit; i++) {||
 immer erst Abbruchbedinugn checken
- 
-Math.random
-Math.Pow
-Math.round
-Arrays
 
-Auf dopplung checken im Array:
-```
+Methoden
+
+* Math.random
+* Math.Pow
+* Math.round
+* Arrays
+
+Auf Dopplung checken im Array:
+```java
 while (whileZaehler < 6) {
     for (int z = 0; z < 6; z++) {
         zufallsZahlen = 1 + (int)(Math.random() * 49);
@@ -90,7 +94,6 @@ while (whileZaehler < 6) {
 }
 ```
 
-
 ## SetterGetter:
 
 ### Wir haben die Klasse Alphabet
@@ -109,7 +112,6 @@ public class Alphabet {
 #### Setter:
 ```java
 /* Es wird eine Public Variable übergeben an eine private Variable. */
-
 public void setErsterBuchstabe (int ersterBuchstabeSetter) {
     ersterBuchstabe = ersterBuchstabeSetter;
     }
