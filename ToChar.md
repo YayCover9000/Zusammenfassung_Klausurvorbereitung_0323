@@ -67,5 +67,5 @@ Parity.getParity(wert);
     }
 
 }
-    ```
+```
     
