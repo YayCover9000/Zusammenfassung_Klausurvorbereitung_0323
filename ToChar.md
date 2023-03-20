@@ -25,7 +25,7 @@ Das letzte Zeichen ist: !
 ```
 Beispielcode:
     
-    ```java
+```java
 public class Parity {
 public static void main (String [] args) {
 long wert = 22225555;
