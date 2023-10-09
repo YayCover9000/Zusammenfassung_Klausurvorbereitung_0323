@@ -31,9 +31,11 @@ im ersten Array mit einer stelle eine 5 und im zweiten Array die 5,6 und 7.
 
 #### gegenläufig ausgeben:
 
-foreach loop
+#### foreach loop:
 
-for loop
+#### for loop:
+
+#### Array Sorting:
 
 ==============================================================
 
