@@ -414,7 +414,7 @@ für eine Vielzahl von Anwendungen und Situationen geeignet ist.
 Durch die Verwendung von eindimensionalen und multidimensionalen Arrays können 
 Sie komplexe Datenstrukturen und -muster speichern, bearbeiten und ausgeben.
 
-##Array Sorting
+## Array Sorting
 
 // Java program to perform the sorting
 // operation on a string array
@@ -436,10 +436,10 @@ class GFG {
     }
 }
 
-###Output
+### Output
 Apple Avocado Ball Banana Cartoon Cat 
 
-##StringArray to String
+## StringArray to String
 
 // Java program to demonstrate the
 // conversion of String array to String
@@ -459,11 +459,11 @@ class GFG {
     }
 }
 
-###Output
+### Output
 [The, quick, brown, fox, jumps, over, the, lazy, dog]
 
-#StringBuilder
-##Stringbuilding with sb.
+# StringBuilder
+## Stringbuilding with sb.
 
 // Java program to demonstrate the
 // conversion of String array to String
@@ -488,7 +488,7 @@ public class GFG {
 }
 
 
-###Output mit sb.
+### Output mit sb.
 The quick brown fox jumps over the lazy dog
 
 
