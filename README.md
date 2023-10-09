@@ -415,7 +415,7 @@ Durch die Verwendung von eindimensionalen und multidimensionalen Arrays können
 Sie komplexe Datenstrukturen und -muster speichern, bearbeiten und ausgeben.
 
 ## Array Sorting
-```
+```java
 // Java program to perform the sorting
 // operation on a string array
  
@@ -441,7 +441,7 @@ class GFG {
 Apple Avocado Ball Banana Cartoon Cat 
 ```
 ## StringArray to String
-```
+```java
 // Java program to demonstrate the
 // conversion of String array to String
  
@@ -466,7 +466,7 @@ class GFG {
 ```
 # StringBuilder
 ## Stringbuilding with sb.
-```
+```java
 // Java program to demonstrate the
 // conversion of String array to String
  
