@@ -256,6 +256,27 @@ array1 = array2;
 array2 = temp;
 ````
 
+
+### Arrays Kopieren
+```java 
+	array2 = array1; // Verweis auf adresse von array1
+	array2 = array.clone(); // "Echte Kopie"
+		
+	for(int i = 0; i < finalArray.length; i++)
+			finalArray[i] = array1[i];
+```
+
+### Arrays auf gleichheit Pruefen
+
+#### 3 Moeglichkeiten
+
+```java
+	System.out.println(array2.equals(array1));
+	
+	System.out.println(array2 == array1);
+	
+	System.out.println(Arrays.equals(array2,array1));
+```
 ### Weitere Möglichkeiten
 
 Es gibt noch viele weitere Möglichkeiten, wie man mit Arrays in Java umgehen kann. Hier sind einige Beispiele:
