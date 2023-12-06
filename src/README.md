@@ -9,6 +9,9 @@ Gegebenenfalls können Lösungen unter folgenden Begriffen auf GitHub unter dem 
 gefunden werden. Im Folgenden werden Lösungsansätze und Erklärungen, sowie ein Verweis auf 
 ein fertiges Beispiel Programm, welches in der einen oder der anderen Art mit dem Problem umgeht.
 
+### Primitive Datentypen:
+Link to: [PrimitiveDatentypen](primitiveDatentypen.md)
+
 ### Zwei Dimensionales Array:
 
 https://github.com/YayCover9000/Binaeres_2-dim_Array_II_10

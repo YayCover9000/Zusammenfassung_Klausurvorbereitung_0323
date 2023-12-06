@@ -5,5 +5,6 @@ public class ZusammenfassungTesttreiber {
     public static void main (String [] args) {
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random();
+        Zusammenfassung_Test.ausgeben();
     }
 }

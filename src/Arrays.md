@@ -179,5 +179,7 @@ public class Array2Dim {
 ### ElementweiseAddition von Arrays
 
 ```java
-System.out.println(Array1[i] + Array2[i]);
+for(int i = 0; i < array1.length; i++) {
+	System.out.println(Array1[i] + Array2[i]);
+}
 ```
