@@ -19,6 +19,10 @@ int x1 = 2_04_1;
 int x2 = 9_98;
 int x11 = 02041;
 
+System.out.println(x1 + "" + x2);
+System.out.println(x1 & x2);
+System.out.println(x11);
+
 ```
 ##### Wert mit / gespeichert wird als Zusammengesetze Zahl ausgegeben: 
 2041998
