@@ -20,11 +20,11 @@ int x2 = 9_98;
 int x11 = 02041;
 
 ```
-#####Wert mit / gespeichert wird als Zusammengesetze Zahl ausgegeben: 
+##### Wert mit / gespeichert wird als Zusammengesetze Zahl ausgegeben: 
 2041998
-#####Bitweise verknüpfung durch & Operator: 
+##### Bitweise verknüpfung durch & Operator: 
 992
-#####Führende 0 führt zur Interpretation als OktalZahl: 
+##### Führende 0 führt zur Interpretation als OktalZahl: 
 1057
 
 
